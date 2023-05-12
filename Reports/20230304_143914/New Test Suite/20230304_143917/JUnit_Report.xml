@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="132.145" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="132.145" skipped="0" timestamp="2023-03-04 14:39:29" hostname="thanh.pnguyen - 192.168.117.106" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/BrowserStack android testing/Reports/20230304_143914/New Test Suite/20230304_143917"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/BrowserStack android testing/Reports/20230304_143914/New Test Suite/20230304_143917/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanh.pnguyen - 192.168.117.106"/>
+         <property name="desiredCapabilities" value="{
+  &quot;app&quot;: &quot;bs://bc841ef6a74256f48bc515dfb64cc509175d42a4&quot;,
+  &quot;browserstack.appium_version&quot;: &quot;1.22.0&quot;,
+  &quot;browserstack_debug&quot;: &quot;true&quot;,
+  &quot;debug&quot;: &quot;true&quot;,
+  &quot;deviceName&quot;: &quot;Samsung Galaxy S20&quot;,
+  &quot;local&quot;: &quot;false&quot;,
+  &quot;networkLogs&quot;: &quot;true&quot;,
+  &quot;osVersion&quot;: &quot;10.0&quot;,
+  &quot;platformName&quot;: &quot;Android&quot;
+}"/>
+         <property name="remoteDriverUrl" value="http://thanhnguyenphuon_VJvmf7:uDtBsEecWZhYNZGYYG75@hub-cloud.browserstack.com/wd/hub"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;status&quot;:0,&quot;sessionId&quot;:null,&quot;value&quot;:{&quot;build&quot;:{&quot;time&quot;:&quot;2015-02-26 23:59:50&quot;,&quot;version&quot;:&quot;2.45.0&quot;,&quot;revision&quot;:&quot;5017cb8&quot;}},&quot;state&quot;:&quot;success&quot;}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="appiumVersion" value="2.45.0"/>
+         <property name="hostAddress" value="192.168.117.106"/>
+      </properties>
+      <testcase name="Test Cases/Browser stack" time="131.624" classname="Test Cases/Browser stack" status="PASSED">
+         <system-out><![CDATA[2023-03-04 14:39:30 - [TEST_CASE][PASSED] - Test Cases/Browser stack: Test Cases/Browser stack
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - settingsPath = "": null
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - settingsPath = getProjectDir() + "/settings/internal/com.kms.katalon.core.webui.remote.properties": null
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - remoteContents = text: null
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - json = JsonSlurper().parseText(remoteContents): null
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - capabilities = new org.openqa.selenium.remote.DesiredCapabilities(): null
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - REMOTE_WEB_DRIVER.each({ java.lang.Object key, java.lang.Object value -> ... }): Using remoteMobileDriver with value is: ANDROID_DRIVER
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using osVersion with value is: 10.0
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using deviceName with value is: Samsung Galaxy S20
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using local with value is: false
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using debug with value is: true
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using networkLogs with value is: true
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using app with value is: bs://bc841ef6a74256f48bc515dfb64cc509175d42a4
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using platformName with value is: Android
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using browserstack.appium_version with value is: 1.22.0
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using browserstack_debug with value is: true
+
+2023-03-04 14:39:30 - [MESSAGE][INFO] - Using remoteMobileDriver with value is: ANDROID_DRIVER
+
+2023-03-04 14:39:30 - [TEST_STEP][PASSED] - createMobileDriver(ANDROID_DRIVER, capabilities, new java.net.URL(json.REMOTE_WEB_DRIVER.remoteWebDriverUrl)): null
+
+2023-03-04 14:40:58 - [TEST_STEP][PASSED] - startApplication("bs://bc841ef6a74256f48bc515dfb64cc509175d42a4", true): Started app at: 'bs://bc841ef6a74256f48bc515dfb64cc509175d42a4'
+
+2023-03-04 14:41:32 - [MESSAGE][PASSED] - Started app at: 'bs://bc841ef6a74256f48bc515dfb64cc509175d42a4'
+
+2023-03-04 14:41:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Browserstack1/android.widget.Button - TEST TOUCH"), 0): Tapped on element 'Object Repository/Browserstack1/android.widget.Button - TEST TOUCH'
+
+2023-03-04 14:41:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-04 14:41:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Browserstack1/android.widget.Button - TEST TOUCH'
+
+2023-03-04 14:41:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Browserstack1/android.widget.Button - COUNT UP"), 0): Tapped on element 'Object Repository/Browserstack1/android.widget.Button - COUNT UP'
+
+2023-03-04 14:41:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-04 14:41:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Browserstack1/android.widget.Button - COUNT UP'
+
+2023-03-04 14:41:37 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-04 14:41:40 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-04 14:41:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-04 14:41:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-04 14:39:29 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Browser stack]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

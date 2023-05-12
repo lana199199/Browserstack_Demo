@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Spiderweb  Highcharts.com/Page_Spiderweb  Highcharts.com/path1",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path.highcharts-point.highcharts-color-1",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Spiderweb  Highcharts.com/Page_Spiderweb  Highcharts.com/path1_CSS.png"
+    }
+  ]
+}

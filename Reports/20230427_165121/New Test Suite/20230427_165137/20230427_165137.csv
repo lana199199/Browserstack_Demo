@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2023-04-27 16:51:58,2023-04-27 16:52:41,42.698s,PASSED
+,,,,,,,
+Test Cases/Browser stack,,,,2023-04-27 16:51:59,2023-04-27 16:52:41,42.074s,PASSED
+Start listener action : enableSauceLabs,,,,2023-04-27 16:51:59,2023-04-27 16:51:59,0.017s,PASSED
+"startApplication(""bs://618ebd7694bc82259800965884e7603095da3df1"", true)",,,,2023-04-27 16:51:59,2023-04-27 16:52:31,32.094s,PASSED
+"tap(findTestObject(""Object Repository/Browserstack1/android.widget.Button - TEST TOUCH""), 0)",,,,2023-04-27 16:52:31,2023-04-27 16:52:34,2.878s,PASSED
+"tap(findTestObject(""Object Repository/Browserstack1/android.widget.Button - COUNT UP""), 0)",,,,2023-04-27 16:52:34,2023-04-27 16:52:37,2.497s,PASSED
+pressBack(),,,,2023-04-27 16:52:37,2023-04-27 16:52:39,2.352s,PASSED
+closeApplication(),,,,2023-04-27 16:52:39,2023-04-27 16:52:41,1.808s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-04-27 16:52:41,2023-04-27 16:52:41,0.003s,PASSED

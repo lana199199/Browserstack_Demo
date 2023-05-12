@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2023-03-05 11:15:06,2023-03-05 11:15:36,30.220s,FAILED
+,,,,,,,
+Test Cases/Browser stack,,,,2023-03-05 11:15:07,2023-03-05 11:15:36,29.760s,FAILED
+"settingsPath = """"",,,,2023-03-05 11:15:07,2023-03-05 11:15:07,0.004s,PASSED
+"settingsPath = getProjectDir() + ""/settings/internal/com.kms.katalon.core.webui.remote.properties""",,Uses default Remote settings,,2023-03-05 11:15:07,2023-03-05 11:15:07,0.000s,PASSED
+remoteContents = text,,,,2023-03-05 11:15:07,2023-03-05 11:15:07,0.002s,PASSED
+json = JsonSlurper().parseText(remoteContents),,,,2023-03-05 11:15:07,2023-03-05 11:15:07,0.013s,PASSED
+capabilities = new org.openqa.selenium.remote.DesiredCapabilities(),,Set desired capabilities,,2023-03-05 11:15:07,2023-03-05 11:15:07,0.017s,PASSED
+"REMOTE_WEB_DRIVER.each({ java.lang.Object key, java.lang.Object value -> ... })",,,,2023-03-05 11:15:07,2023-03-05 11:15:07,0.031s,PASSED
+"createMobileDriver(ANDROID_DRIVER, capabilities, new java.net.URL(json.REMOTE_WEB_DRIVER.remoteWebDriverUrl))",,Create a Katalon-like mobile session,,2023-03-05 11:15:07,2023-03-05 11:15:34,26.829s,PASSED
+"startApplication(""bs://bc841ef6a74256f48bc515dfb64cc509175d42a4"", true)",,,,2023-03-05 11:15:34,2023-03-05 11:15:36,2.492s,FAILED

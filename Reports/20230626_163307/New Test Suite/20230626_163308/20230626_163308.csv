@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Edge Chromium 112,,,2023-06-26 16:33:21,2023-06-26 16:33:41,19.519s,PASSED
+,,,,,,,
+Test Cases/BrowserStack Test/Browserstack_Web,Edge Chromium 112,,,2023-06-26 16:33:22,2023-06-26 16:33:41,18.894s,PASSED
+Start listener action : enableSauceLabs,Edge Chromium 112,,,2023-06-26 16:33:22,2023-06-26 16:33:22,0.041s,PASSED
+"openBrowser("""")",Edge Chromium 112,,,2023-06-26 16:33:22,2023-06-26 16:33:33,10.616s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 112,,,2023-06-26 16:33:33,2023-06-26 16:33:36,2.756s,PASSED
+"click(findTestObject(""Web Browser/a_Make Appointment""))",Edge Chromium 112,,,2023-06-26 16:33:36,2023-06-26 16:33:37,1.193s,PASSED
+"setText(findTestObject(""Web Browser/input_Username_username""), ""John Doe"")",Edge Chromium 112,,,2023-06-26 16:33:37,2023-06-26 16:33:38,1.470s,PASSED
+"setEncryptedText(findTestObject(""Web Browser/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 112,,,2023-06-26 16:33:38,2023-06-26 16:33:39,1.047s,PASSED
+"click(findTestObject(""Web Browser/button_Login""))",Edge Chromium 112,,,2023-06-26 16:33:39,2023-06-26 16:33:41,1.302s,PASSED
+Start listener action : autoUpdateJobStatus,Edge Chromium 112,,,2023-06-26 16:33:41,2023-06-26 16:33:41,0.002s,PASSED

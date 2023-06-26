@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Edge Chromium 112,,,2023-06-07 12:22:57,2023-06-07 12:23:16,18.597s,PASSED
+,,,,,,,
+Test Cases/BrowserStack Test/Browserstack_Web,Edge Chromium 112,,,2023-06-07 12:22:57,2023-06-07 12:23:16,18.195s,PASSED
+"openBrowser("""")",Edge Chromium 112,,,2023-06-07 12:22:58,2023-06-07 12:23:07,9.612s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 112,,,2023-06-07 12:23:07,2023-06-07 12:23:10,2.856s,PASSED
+"click(findTestObject(""Web Browser/a_Make Appointment""))",Edge Chromium 112,,,2023-06-07 12:23:10,2023-06-07 12:23:11,1.201s,PASSED
+"setText(findTestObject(""Web Browser/input_Username_username""), ""John Doe"")",Edge Chromium 112,,,2023-06-07 12:23:11,2023-06-07 12:23:13,1.304s,PASSED
+"setEncryptedText(findTestObject(""Web Browser/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 112,,,2023-06-07 12:23:13,2023-06-07 12:23:14,1.379s,PASSED
+"click(findTestObject(""Web Browser/button_Login""))",Edge Chromium 112,,,2023-06-07 12:23:14,2023-06-07 12:23:16,1.515s,PASSED

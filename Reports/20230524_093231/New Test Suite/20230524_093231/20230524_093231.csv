@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Safari 16,,,2023-05-24 09:32:49,2023-05-24 09:33:09,20.349s,PASSED
+,,,,,,,
+Test Cases/Lambda Testing/Remote Web browser,Safari 16,,,2023-05-24 09:32:49,2023-05-24 09:33:09,19.958s,PASSED
+"openBrowser("""")",Safari 16,,,2023-05-24 09:32:50,2023-05-24 09:32:59,9.791s,PASSED
+"navigateToUrl(""https://katalon.com"")",Safari 16,,,2023-05-24 09:32:59,2023-05-24 09:33:01,1.793s,PASSED
+delay(8),Safari 16,,,2023-05-24 09:33:01,2023-05-24 09:33:09,8.090s,PASSED

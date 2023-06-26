@@ -10,15 +10,15 @@ WebUI.comment('Given that the user has the valid login information')
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-WebUI.click(findTestObject('Web Browser/btn_MakeAppointment'))
+WebUI.click(findTestObject('Web Browser/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Web Browser/txt_Username'), Username)
+WebUI.setText(findTestObject('Web Browser/input_Username_username'), Username)
 
-WebUI.setEncryptedText(findTestObject('Web Browser/txt_Password'), Password)
+WebUI.setEncryptedText(findTestObject('Web Browser/input_Password_password'), Password)
 
 WebUI.comment('When he logins to CURA system')
 
-WebUI.click(findTestObject('Web Browser/btn_Login'))
+WebUI.click(findTestObject('Web Browser/button_Login'))
 
 WebUI.comment('Then he should be able to login successfully')
 

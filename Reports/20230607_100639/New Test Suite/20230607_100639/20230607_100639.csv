@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 113.0.0.0,,,2023-06-07 10:06:53,2023-06-07 10:07:12,19.624s,PASSED
+,,,,,,,
+Test Cases/BrowserStack Test/Browserstack_Web,Chrome 113.0.0.0,,,2023-06-07 10:06:53,2023-06-07 10:07:12,19.178s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-07 10:06:54,2023-06-07 10:07:04,10.024s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 113.0.0.0,,,2023-06-07 10:07:04,2023-06-07 10:07:06,2.778s,PASSED
+"click(findTestObject(""Web Browser/a_Make Appointment""))",Chrome 113.0.0.0,,,2023-06-07 10:07:06,2023-06-07 10:07:08,1.482s,PASSED
+"setText(findTestObject(""Web Browser/input_Username_username""), ""John Doe"")",Chrome 113.0.0.0,,,2023-06-07 10:07:08,2023-06-07 10:07:10,1.885s,PASSED
+"setEncryptedText(findTestObject(""Web Browser/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 113.0.0.0,,,2023-06-07 10:07:10,2023-06-07 10:07:11,1.198s,PASSED
+"click(findTestObject(""Web Browser/button_Login""))",Chrome 113.0.0.0,,,2023-06-07 10:07:11,2023-06-07 10:07:12,1.431s,PASSED

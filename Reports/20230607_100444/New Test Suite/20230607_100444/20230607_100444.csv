@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 113.0.0.0,,,2023-06-07 10:04:56,2023-06-07 10:05:12,16.184s,FAILED
+,,,,,,,
+Test Cases/BrowserStack Test/Browserstack_Web,Chrome 113.0.0.0,,,2023-06-07 10:04:56,2023-06-07 10:05:12,15.659s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-07 10:04:56,2023-06-07 10:05:06,9.625s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 113.0.0.0,,,2023-06-07 10:05:06,2023-06-07 10:05:09,2.691s,PASSED
+"click(findTestObject(""Object Repository/a_Make Appointment""))",Chrome 113.0.0.0,,,2023-06-07 10:05:09,2023-06-07 10:05:12,2.971s,FAILED

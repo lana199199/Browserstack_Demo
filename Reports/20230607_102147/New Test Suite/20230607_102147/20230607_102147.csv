@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2023-06-07 10:22:00,2023-06-07 10:26:44,4m - 44.210s,FAILED
+,,,,,,,
+Test Cases/BrowserStack Test/Browserstack_Web,,,,2023-06-07 10:22:00,2023-06-07 10:26:44,4m - 43.766s,FAILED
+"openBrowser("""")",,,,2023-06-07 10:22:00,2023-06-07 10:26:44,4m - 43.402s,FAILED

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="25.18" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="25.18" skipped="0" timestamp="2023-06-07 11:13:53" hostname="thanh.pnguyen - 10.10.34.51" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/Reports/20230607_111343/New Test Suite/20230607_111343"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/Reports/20230607_111343/New Test Suite/20230607_111343/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanh.pnguyen - 10.10.34.51"/>
+         <property name="remoteDriverUrl" value="http://thanhnguyen_Ca1Yn4:6P7VJnQ49b435f8ahbWk@hub-cloud.browserstack.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;msedge&quot;: {
+    &quot;msedgedriverVersion&quot;: &quot;112.0.1722.34 (649b7446f96f116d8dc7d1c2d92d06583649e244)&quot;,
+    &quot;userDataDir&quot;: &quot;/var/folders/yj/h3bj394n2tn74bp3vdngj35c0000jy/T/.com.microsoft.edgemac.b35xIs&quot;
+  },
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;platform&quot;: &quot;MAC&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webdriver.remote.sessionid&quot;: &quot;ed3ed45d75095333ba74f2ac1c66d9cd3b32d29c&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;112.0.1722.48&quot;,
+  &quot;browserName&quot;: &quot;msedge&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;platformName&quot;: &quot;MAC&quot;,
+  &quot;ms:edgeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:57779&quot;
+  },
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 112"/>
+         <property name="hostAddress" value="10.10.34.51"/>
+         <property name="sessionId" value="ed3ed45d75095333ba74f2ac1c66d9cd3b32d29c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/BrowserStack Test/Browserstack_Web" time="24.768" classname="Test Cases/BrowserStack Test/Browserstack_Web" status="PASSED">
+         <system-out><![CDATA[2023-06-07 11:13:54 - [TEST_CASE][PASSED] - Test Cases/BrowserStack Test/Browserstack_Web: Test Cases/BrowserStack Test/Browserstack_Web
+
+2023-06-07 11:13:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - User set preference: ['os', 'OS X']
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - User set preference: ['os_version', 'Monterey']
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'Edge']
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - User set preference: ['browser_version', '112.0']
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - User set preference: ['debug', 'true']
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - User set preference: ['networkLogs', 'true']
+
+2023-06-07 11:13:54 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-06-07 11:13:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-07 11:14:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-07 11:14:08 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-07 11:14:11 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-07 11:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Web Browser/a_Make Appointment")): Object: 'Object Repository/Web Browser/a_Make Appointment' is clicked on
+
+2023-06-07 11:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Browser/a_Make Appointment' is clicked on
+
+2023-06-07 11:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("Web Browser/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Web Browser/input_Username_username'
+
+2023-06-07 11:14:16 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Web Browser/input_Username_username'
+
+2023-06-07 11:14:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web Browser/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Web Browser/input_Password_password'
+
+2023-06-07 11:14:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web Browser/input_Password_password'
+
+2023-06-07 11:14:17 - [TEST_STEP][PASSED] - click(findTestObject("Web Browser/button_Login")): Object: 'Object Repository/Web Browser/button_Login' is clicked on
+
+2023-06-07 11:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Browser/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-07 11:13:53 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/BrowserStack Test/Browserstack_Web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

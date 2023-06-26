@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="20.349" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="20.349" skipped="0" timestamp="2023-05-24 09:32:49" hostname="thanh.pnguyen - 10.10.33.152" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/Reports/20230524_093231/New Test Suite/20230524_093231"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/Reports/20230524_093231/New Test Suite/20230524_093231/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanh.pnguyen - 10.10.33.152"/>
+         <property name="remoteDriverUrl" value="http://thanhnguyenphuon_VJvmf7:uDtBsEecWZhYNZGYYG75@hub-cloud.browserstack.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;safari:diagnose&quot;: false,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;platform&quot;: &quot;MAC&quot;,
+  &quot;safari:automaticProfiling&quot;: false,
+  &quot;webdriver.remote.sessionid&quot;: &quot;23dacc755237534bd8a811fc631c28a725d9438f&quot;,
+  &quot;safari:platformBuildVersion&quot;: &quot;22D68&quot;,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;16.3&quot;,
+  &quot;safari:useSimulator&quot;: false,
+  &quot;webkit:WebRTC&quot;: {
+    &quot;DisableICECandidateFiltering&quot;: false,
+    &quot;DisableInsecureMediaCapture&quot;: false
+  },
+  &quot;safari:platformVersion&quot;: &quot;13.2.1&quot;,
+  &quot;browserName&quot;: &quot;Safari&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;safari:automaticInspection&quot;: false,
+  &quot;platformName&quot;: &quot;MAC&quot;,
+  &quot;setWindowRect&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Safari 16"/>
+         <property name="hostAddress" value="10.10.33.152"/>
+         <property name="sessionId" value="23dacc755237534bd8a811fc631c28a725d9438f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Lambda Testing/Remote Web browser" time="19.958" classname="Test Cases/Lambda Testing/Remote Web browser" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:32:49 - [TEST_CASE][PASSED] - Test Cases/Lambda Testing/Remote Web browser: Test Cases/Lambda Testing/Remote Web browser
+
+2023-05-24 09:32:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-24 09:32:50 - [MESSAGE][INFO] - User set preference: ['os', 'OS X']
+
+2023-05-24 09:32:50 - [MESSAGE][INFO] - User set preference: ['os_version', 'Ventura']
+
+2023-05-24 09:32:50 - [MESSAGE][INFO] - User set preference: ['browser', 'Safari']
+
+2023-05-24 09:32:50 - [MESSAGE][INFO] - User set preference: ['browser_version', '16.0']
+
+2023-05-24 09:32:50 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-05-24 09:32:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-24 09:32:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-24 09:32:59 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon.com"): Navigate to 'https://katalon.com' successfully
+
+2023-05-24 09:33:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon.com' successfully
+
+2023-05-24 09:33:01 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-05-24 09:33:09 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-24 09:32:49 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Lambda Testing/Remote Web browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

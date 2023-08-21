@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>XCUIElementTypeOther</name>
+   <name>XCUIElementTypeImage - icEyeHidden</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,8 +11,8 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeOther</value>
-      <webElementGuid>3879d997-e391-4cf6-9cf9-2839918b06c6</webElementGuid>
+      <value>XCUIElementTypeImage</value>
+      <webElementGuid>f6825e67-23d3-4d6c-9fc8-77a0cd62bd99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>af6ac5af-3ec9-4d1c-b9cf-7b2444730119</webElementGuid>
+      <webElementGuid>185b9f3c-fd1b-4cf1-b362-3eb42122f7b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,56 +28,64 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bee85492-94a7-4e91-bcf7-e08e65343613</webElementGuid>
+      <webElementGuid>05acfc4e-a10d-435f-9e07-4c6469430cea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>100.0</value>
-      <webElementGuid>318c68d3-a9f2-4131-9756-688fba7be62b</webElementGuid>
+      <value>52.0</value>
+      <webElementGuid>47c04da9-458c-4ec6-8755-423e7fe5cf95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>e3a0c648-c2b1-4da6-9597-a8601d298276</webElementGuid>
+      <value>1</value>
+      <webElementGuid>b0fde7ec-5ce1-4a54-b217-34510b5bf1a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>icEyeHidden</value>
+      <webElementGuid>305f5861-b6e8-435e-9f25-8808e3bd59ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>708.0</value>
-      <webElementGuid>0ee59b41-3955-4797-83c0-625163fe08a5</webElementGuid>
+      <value>50.0</value>
+      <webElementGuid>13372203-5bd2-44fe-8d4f-cef116c3d598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>36.0</value>
-      <webElementGuid>c5b77666-43e7-4359-b586-475d460c4844</webElementGuid>
+      <value>668.0</value>
+      <webElementGuid>4b24f513-6dfa-4702-915c-b29da84a207d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>622.0</value>
-      <webElementGuid>0afdea40-c201-477e-9162-6710717ef72b</webElementGuid>
+      <value>768.0</value>
+      <webElementGuid>15e7ae12-37cf-4ce1-af4f-1301049b6207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[6]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]</value>
-      <webElementGuid>aa439f28-9f0f-495f-b7a9-44ef3cc6f7e8</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]</value>
+      <webElementGuid>1a2b3c24-5583-4567-9d62-c91901c38ba5</webElementGuid>
    </webElementProperties>
-   <locator>//*[@type = 'XCUIElementTypeOther']</locator>
+   <locator>//*[@type = 'XCUIElementTypeImage' and @name = 'icEyeHidden']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

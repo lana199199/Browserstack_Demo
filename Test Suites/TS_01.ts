@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>d4069461-851f-4fee-b410-e1b5de2497df</testSuiteGuid>
    <testCaseLink>
-      <guid>00c63889-a6da-40a7-ab1e-aa9fc5aa3b60</guid>
+      <guid>f5ec4fd8-aa63-428b-8c6f-430109242bc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/iOS/New Test Case</testCaseId>
+      <testCaseId>Test Cases/iOS/ios Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

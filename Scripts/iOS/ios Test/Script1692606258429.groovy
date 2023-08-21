@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('bs://bae0d094184b85a4e4e5dc9eb04b8a2ef5bd08f5', true)
-
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Allow'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - icEyeHidden'), 0)

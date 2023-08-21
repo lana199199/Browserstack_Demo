@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>d4069461-851f-4fee-b410-e1b5de2497df</testSuiteGuid>
    <testCaseLink>
-      <guid>19f68cfe-8f86-41c1-9a36-7941f833e16e</guid>
+      <guid>00c63889-a6da-40a7-ab1e-aa9fc5aa3b60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BrowserStack Test/Browserstack_Web</testCaseId>
+      <testCaseId>Test Cases/iOS/New Test Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

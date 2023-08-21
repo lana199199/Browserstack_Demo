@@ -23,8 +23,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - SKIP TH
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - LOGIN'), 0)
 
-Mobile.setText(findTestObject(''), 'a@katalon.com', 0)
+Mobile.setText(findTestObject('IOS/XCUIElementTypeTextField'), 'a@katalon.com', 0)
 
 Mobile.setEncryptedText(findTestObject('Object Repository/IOS/XCUIElementTypeSecureTextField'), 'iGDxf8hSRT4=', 0)
-
 

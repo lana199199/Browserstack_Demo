@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('', false)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Allow'), 0)
-
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - icEyeHidden'), 0)
 
 Mobile.setText(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Username'), 'a@katalon.com', 0)

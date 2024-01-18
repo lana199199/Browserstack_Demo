@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/androidapp/APIDemos.apk', false)
+Mobile.startApplication('/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/androidapp/bitbar-sample-app.apk', false)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - icEyeHidden'), 0)
 

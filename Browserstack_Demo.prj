@@ -4,6 +4,7 @@
    <name>Browserstack_Demo</name>
    <tag></tag>
    <UUID>5450cfd2-7d1a-4c2f-a744-508bde69896a</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>/Users/thanh.pnguyen/Documents/Katalon/Browserstack_Demo/Browserstack_Demo.prj</projectFileLocation>

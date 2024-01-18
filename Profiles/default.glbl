@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'androidapp/APIDemos.apk'</initValue>
+      <initValue>'androidapp/bitbar-sample-app.apk'</initValue>
       <name>G_AppPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
